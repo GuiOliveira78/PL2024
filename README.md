@@ -15,6 +15,7 @@
 **ID:** a95021
 
 **Fotografia:**
-<img src=https://i.imgur.com/ag9VyrP.jpg alt="Fotografia" style="width:30%;">
+
+<img src=https://i.imgur.com/ag9VyrP.jpg alt="Fotografia" style="width:20%;">
 
 
