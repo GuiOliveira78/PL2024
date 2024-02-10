@@ -15,7 +15,7 @@
 **ID:** a95021
 
 **Fotografia:**
-![Fotografia do aluno](../../../../Documentos/myfoto.jpg)
+![Fotografia do aluno](https://imgur.com/a/iYEQBHz)
 
 /Users/gui_oliveira/desktop/Documentos
 /Users/gui_oliveira/desktop/UM/2º Semestre/PL/PL2024
