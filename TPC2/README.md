@@ -44,6 +44,6 @@ Assim sendo temos as seguintes funções:
 - **converterAll** - junta todas as funções acima fazendo a conversão total do texto
 
 
-##### main.py
+### main.py
 
 Ficheiro onde se encontra a função main onde está implementado o cabeçalho do ficheiro html e onde é invocada a função ***converterAll*** de forma a fazer a conversão do texto.
