@@ -1,5 +1,5 @@
 # TPC 1
-PL 2024
+**PL 2024**
 
 ## Aluno
 
@@ -19,7 +19,7 @@ Este TPC consistiu em criar um programa para análise de dados originários de u
 
 ### Implementação
 
-Para a implementação do programa doram criados os seguintes ficheiros:
+Para a implementação do programa foram criados os seguintes ficheiros:
 
 - **csv_to_list.py**
 

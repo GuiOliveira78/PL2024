@@ -1,5 +1,5 @@
 # TPC 2
-PL 2024
+**PL 2024**
 
 ## Aluno
 
@@ -7,27 +7,43 @@ PL 2024
 
 **ID:** a95021
 
-### Resumo
-> Trabalho de PL
+## Resumo
+O objetivo deste TPC foi criar um programa que faz a converção de um ficheiro MarkDown para HTML
 
-### Implementação
+## Implementação
 
-Para a implementação do programa doram criados os seguintes ficheiros:
+Para a implementação do programa foram criados os seguintes ficheiros:
 
-- **csv_to_list.py**
-
-- **funcs.py**
+- **converter.py**
 
 - **main.py**
 
-##### csv_to_list.py
+### converter.py
 
-Neste ficheiro encontrámos apenas a função **to_list** que transforma um ficheiro csv numa lista de dicionários com os dados do mesmo.
+Neste ficheiro encontrámos as funções que recebem um texto markdown e o vão transformando num html, tendo cada uma a função de substiruir um tipo de texto.
+Assim sendo temos as seguintes funções:
 
-##### funcs.py
+- **convert_title** - converte um título
 
-Em funcs.py encontrámos todas as funções que recebem a lista de dados criada em csv_to_list e retornam os diversos dados pedidos.
+- **convert_bold** - converte palavras a negrito
+
+- **convert_italico** - converte palavras em itálico
+
+- **convert_blockquote** - converte blocos de código
+
+- **convert_oList** - converte listas ordenadas
+
+- **convert_uList** - converte listas desordenadas
+
+- **convert_link** - converte links
+
+- **convert_img** - converte imagens
+
+- **convert_paragraph** - converte parágrafos
+
+- **converterAll** - junta todas as funções acima fazendo a conversão total do texto
+
 
 ##### main.py
 
-Ficheiro onde se encontra a função main onde está implementado o menu de interação com o utilizador e onde são chamadas as funções presentes nos pacotes referidos acima.
+Ficheiro onde se encontra a função main onde está implementado o cabeçalho do ficheiro html e onde é invocada a função ***converterAll*** de forma a fazer a conversão do texto.
